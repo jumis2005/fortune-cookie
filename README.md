@@ -10,7 +10,7 @@ This is a simple web app that simulates opening a fortune cookie and displaying 
 
 ## Getting Started
 
-To use this app, simply open the `index.html` file in a web browser. You can customize the app by editing the `fortunes.js` file, which contains the list of fortune messages. You can also replace the fortune cookie image with your own image, by editing the `index.html` file.
+To use this app, simply open the `index.html` file in a web browser. You can customize the app by editing the `app.js` file, which contains the list of fortune messages. You can also replace the fortune cookie image with your own image, by editing the `index.html` file.
 
 ## Contributing
 
