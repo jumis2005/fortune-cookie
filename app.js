@@ -183,7 +183,7 @@ const fortunes = [
   ];
 
   const fortune = fortunes[Math.floor(Math.random() * fortunes.length)];
-  document.getElementById("fortune").innerHTML = fortune;
+  document.getElementById("fortune-text").innerHTML = fortune;
 
   const crackingSound = document.getElementById("cracking-sound");
   crackingSound.currentTime = 0;

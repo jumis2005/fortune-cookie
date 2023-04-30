@@ -1,0 +1,80 @@
+/* Mobile first styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffe4b5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 24px;
+  background-color: #ffa500;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fortune-cookie {
+  display: block;
+  margin: 30px auto;
+  width: 200px;
+  height: 200px;
+  background-image: url("https://www.horoscope.com/images-US/games/game-fortune-cookie-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fortune-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  /* Tablet and desktop styles */
+  .container {
+    max-width: 600px;
+    padding: 40px;
+  }
+
+  h1 {
+    font-size: 48px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+
+  button {
+    font-size: 32px;
+    padding: 20px 40px;
+  }
+
+  .fortune-cookie {
+    width: 300px;
+    height: 300px;
+  }
+
+  .fortune-text {
+    font-size: 32px;
+    margin-top: 30px;
+  }
+}
+

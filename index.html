@@ -1,54 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Fortune Cookie App</title>
-  <style>
-    body {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      font-family: Arial, sans-serif;
-    }
-    h1 {
-      margin-top: 50px;
-      margin-bottom: 20px;
-    }
-    button {
-      margin-top: 20px;
-      padding: 10px 20px;
-      font-size: 18px;
-      border: none;
-      background-color: #FEE12B;
-      border-radius: 5px;
-      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #FDD100;
-    }
-    #fortune-cookie-image {
-      margin-top: 20px;
-      width: 200px;
-      height: 200px;
-    }
-    #fortune {
-      margin-top: 20px;
-      font-size: 24px;
-      text-align: center;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortune Cookie App</title>
+    <!-- Load Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-OgVRvuATP1z7JjHLkuOU6Xw704+h835Lr+8KDR5g5zS0hLh/v2KjOV+Xz2jpDpd" crossorigin="anonymous">
+    <!-- Load custom CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Fortune Cookie App</h1>
-  <button onclick="getFortune()">
-    Open Fortune Cookie
-    <audio id="cracking-sound">
-      <source src="https://cdn.freesound.org/previews/275/275491_4830131-lq.mp3" type="audio/mpeg">
-    </audio>
-  </button>
-  <img id="fortune-cookie-image" src="https://www.horoscope.com/images-US/games/game-fortune-cookie-1.png" alt="Fortune Cookie">
-  <p id="fortune"></p>
-  <script src="app.js"></script>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center">Fortune Cookie App</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <img src="https://www.horoscope.com/images-US/games/game-fortune-cookie-1.png" alt="Fortune Cookie" class="img-fluid">
+                <button id="fortune-button" class="btn btn-primary mt-3" onclick="getFortune()">Open Fortune Cookie</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 mt-3">
+                <p id="fortune-text" class="fortune-text"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper-core.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU6Xw704+h835Lr+8KDR5g5zS0hLh/v2KjOV+Xz2jpDpd" crossorigin="anonymous"></script>
+    <!-- Load custom JavaScript -->
+    <script src="app.js"></script>
 </body>
 </html>
-

@@ -1,27 +1,30 @@
 # Fortune Cookie App
 
-This is a simple web app that simulates opening a fortune cookie and displaying a fortune message. The app is built using HTML, CSS, and JavaScript, and can be easily customized and extended.
+A mobile-first web application that allows users to open a virtual fortune cookie and receive a random fortune message.
 
-## Features
+## Usage
 
-- Click on a cookie to simulate opening it
-- Randomly display a fortune message from a predefined list
-- Display an image of a fortune cookie to enhance the user experience
+To use the app, simply click the "Open Fortune Cookie" button on the main page. A virtual fortune cookie will crack open, and a random fortune message will be displayed.
 
-## Getting Started
+## Installation
 
-To use this app, simply open the `index.html` file in a web browser. You can customize the app by editing the `app.js` file, which contains the list of fortune messages. You can also replace the fortune cookie image with your own image, by editing the `index.html` file.
+To install the app, simply download the source code from the GitHub repository and deploy it to a web server. The app requires a modern web browser with JavaScript support.
 
-## Contributing
+## Technologies Used
 
-If you find a bug or have a suggestion for improving the app, feel free to open an issue or submit a pull request on GitHub. We welcome contributions from the community!
+The app is built using HTML, CSS, and JavaScript. It utilizes the following libraries and frameworks:
+
+- [Bootstrap](https://getbootstrap.com/)
+- [jQuery](https://jquery.com/)
+- [Popper.js](https://popper.js.org/)
+
+## Credits
+
+The fortune messages used in the app were generated using [this online fortune cookie generator](https://www.fortunecookiemessage.com/).
+
+The fortune cookie image used in the app was sourced from [horoscope.com](https://www.horoscope.com/).
 
 ## License
 
-This app is licensed under the MIT License. See the `LICENSE` file for more information.
-
-## Acknowledgements
-
-- Fortune cookie image from [Horoscope.com](https://www.horoscope.com/images-US/games/game-fortune-cookie-1.png)
-- Cracking sound effect from [Freesound.org](https://freesound.org/people/SophronsineSoundDesign/sounds/275491/) (CC0 License)
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
 
